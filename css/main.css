@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+#codeText{
+    color: #e2e2e2;
+}
+.token.selector{
+    color: slategray;
+}
+.token.punctuation{
+    color:#4a4a4a;
+}
+.token.property{
+    color:#4a4a4a;
+}
