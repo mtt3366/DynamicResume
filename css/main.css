@@ -25,14 +25,21 @@ body{
 }
 
 .main{
+    display: flex;
     width: 100vw;
     height:100vh;
     border: 2px solid blue;
 }
 .main .codeWrapper{
     height: 100%;
-    widows: 100%;
+    width: 50%;
 }
 .code{
     overflow: auto;
 }
+
+.main .paperWrapper{
+    height: 100%;
+    width: 50%;
+}
+

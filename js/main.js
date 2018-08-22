@@ -14,7 +14,7 @@
 }
 /* 修改大小和位置 */
 .code{
-    width:50%;
+    width:100%;
     height:85%;
 }
 
@@ -22,7 +22,7 @@
 .code{
     transform: perspective(600px) 
     rotateY(10deg)
-    translate(10%,10%);
+    translate(6%,10%);
 }
 
 /* 字体太难看了,改变一下代码的字体并高亮代码 */
@@ -48,6 +48,19 @@
 .token.property {
     color: #a6e22e;
 }
+/* 接下来写我的markdown简历,先设置一下简历的样式 */
+.paper{
+    overflow: auto;
+    border: 1px solid #000;
+    background-color: #fff;
+    width:100%;
+    height:85%;
+                   
+    transform: perspective(600px) 
+    rotateY(-10deg)
+    translate(-6%,10%);
+}
+
 
     `
 
