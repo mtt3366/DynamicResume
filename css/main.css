@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
-    transition: all 1s;
+    transition: all 1.5s;
 }
 
 body{
@@ -18,6 +18,9 @@ body{
     color:#4a4a4a;
 }
 .token.property{
+    color: #c8c5c5;
+}
+.token.function {
     color: #c8c5c5;
 }
 

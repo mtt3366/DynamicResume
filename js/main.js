@@ -28,10 +28,13 @@
 /* 字体太难看了,改变一下代码的字体并高亮代码 */
 
 #codeText {
-    font-family: 
-    Consolas, 
+    font-family: Consolas, 
     "Courier New";
     font-size: 13px;
+}
+
+.token.function {
+    color: #61cbff;
 }
 
 .token.selector {
@@ -64,7 +67,7 @@
                 window.clearInterval(stringSit);
                 callBack();
             }
-        }, 100);
+        }, 0);
 
     }
 
