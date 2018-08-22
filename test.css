@@ -10,14 +10,14 @@
 
 /* 背景太单调了,加个背景颜色 */
 
-body {
+.code {
     background-color: #23241f;
 }
 
 /* 加边框和内边距 */
 
-#codeText {
-    border: 1px solid red;
+.code {
+    border: 1px solid white;
     padding: 16px;
 }
 
@@ -38,6 +38,7 @@ body {
 .token.property {
     color: #a6e22e;
 }
-/* 添加一点3D效果 */
-
-/* 接下来添加我的简历 */
+/* 做点3D变换 */
+.code{
+    transform: rotateY(45)
+}

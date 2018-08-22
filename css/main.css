@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+    transition: all 1s;
+}
+
+body{
+    background-color: rgb(63, 82, 99);
 }
 #codeText{
     color: #e2e2e2;
@@ -13,5 +18,18 @@
     color:#4a4a4a;
 }
 .token.property{
-    color:#4a4a4a;
+    color: #c8c5c5;
+}
+
+.main{
+    width: 100vw;
+    height:100vh;
+    border: 2px solid blue;
+}
+.main .codeWrapper{
+    height: 100%;
+    widows: 100%;
+}
+.code{
+    overflow: auto;
 }
