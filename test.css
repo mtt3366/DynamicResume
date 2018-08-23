@@ -28,6 +28,7 @@
 }
 
 .token.selector {
+    position: relative;
     color: #f92672;
 }
 
