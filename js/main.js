@@ -104,12 +104,9 @@ GPA：3.6 / 4.0 (专业前5%)
         writePaper(()=>{
             writeCode(str,code2,()=>{
                 makePaperToMarkDown(()=>{
-                    setTimeout(() => {
-                        //
                         oneLineFadeIn(()=>{
-                            writeCode(str+code2,code3)
-                        })
-                    }, 1000);
+                            writeCode(str+code2,code3);
+                        });
                 });
             })
         })
