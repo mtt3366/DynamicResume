@@ -113,7 +113,6 @@ GPA：3.6 / 4.0 (专业前5%)
     });
 
 
-
     function writeCode(preCode,codeString,callBack) { //往左边的框里写代码,第一个参数是原来就有的代码,第二个参数是要加进去的代码,第三个参数是执行完添加代码后执行的回调函数
         var n = 0;
         var stringSit = setInterval(() => {
