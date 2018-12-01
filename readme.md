@@ -3,4 +3,5 @@
 
 - 使用prism.js 库实现代码高亮
 - 使用异步操作嵌套回调函数来严格控制代码字符串与简历字符串出现的先后次序
+- 使用mark.js为MarkDown文本添加样式
 [![FnVHQ1.md.png](https://s1.ax1x.com/2018/12/01/FnVHQ1.md.png)](https://imgchr.com/i/FnVHQ1)
